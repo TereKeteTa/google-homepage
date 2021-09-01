@@ -1,0 +1,117 @@
+html, body {
+    background-color: #fff;
+    margin: 0;
+    font-size: 14px;
+}
+
+a, button {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#nav a {
+    margin-right: 15px;
+}
+
+#signin {
+    background-color: #1a73e8;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #fff;
+    border-radius: 5px;
+}
+
+#signin:hover {
+    text-decoration: none;
+}
+
+#main {
+    margin: 100px 0px;
+}
+
+#logo {
+    text-align: center;
+}
+
+#search-box {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.search-box-input {
+    padding: 10px 15px;
+    width: 500px;
+    border-radius: 24px;
+    border: 1px solid rgb(209, 208, 208);
+    outline: none;
+}
+
+.search-box-input:hover {
+    box-shadow: 0px 0px 5px rgb(189, 187, 187);
+}
+
+#buttons {
+    text-align: center;
+    margin-top: 25px;
+}
+
+#buttons button {
+    margin-right: 30px;
+    background-color: rgb(252, 247, 247);
+    border: 1px solid rgb(252, 247, 247);
+    padding: 16px;
+}
+
+#buttons button:hover {
+    border: 1px solid rgb(209, 206, 206);
+}
+
+#language-options {
+    text-align: center;
+    margin-top: 25px;
+    font-size: small;
+}
+
+#language-options a {
+    color:rgb(143, 102, 209);
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: rgb(161, 159, 159);
+}
+
+.footer-box {
+    padding: 10px 30px; 
+    background-color: rgb(241, 239, 239);
+    border-bottom: 1px solid rgb(199, 198, 198);
+}
+
+#etc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-links {
+    margin-right: 10px;
+    color: rgb(161, 159, 159);
+}
